@@ -20,7 +20,6 @@ browser = webdriver.Chrome()
 time.sleep(5)
 
 #make a data list リストを作成
-columns = ["Name", "Price", "Sold", "Url"]
 list=[]
 
 #run browser and scroll till the bottom ブラウザで検索、ページ最下部までスクロールさせる
